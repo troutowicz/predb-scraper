@@ -1,14 +1,22 @@
 {
-  "name": "node-predb",
+  "name": "predb-scraper",
   "version": "0.1.0",
-  "description": "",
+  "description": "A predb.me scraping library for Node.js",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/troutowicz/predb-scraper.git"
+  },
   "author": "Tim Routowicz",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troutowicz/predb-scraper/issues"
+  },
+  "homepage": "https://github.com/troutowicz/predb-scraper",
   "dependencies": {
     "babel": "^5.8.23",
     "cheerio": "^0.19.0",

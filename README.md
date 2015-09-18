@@ -1,8 +1,9 @@
-# node-predb
+# predb-scraper
 > A predb.me scraping library for Node.js
 
 ## TODO
 * Tests
+* API docs
 * Publish to NPM
 
 ## License
