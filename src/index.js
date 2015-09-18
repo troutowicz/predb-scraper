@@ -2,7 +2,7 @@ import request from 'request';
 
 import parse from './parser';
 
-export default function getter(args = {}) {
+export default function predb(args = {}) {
   const options = {
     url: 'http://predb.me',
     headers:  {

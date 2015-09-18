@@ -2,10 +2,11 @@
   "name": "predb-scraper",
   "version": "0.1.0",
   "description": "A predb.me scraping library for Node.js",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "eslint src index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "babel --stage 1 src --out-dir lib"
   },
   "repository": {
     "type": "git",
