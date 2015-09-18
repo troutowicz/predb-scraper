@@ -7,7 +7,7 @@ export default function parse(html) {
     return parseRelease($);
   }
 
-  return parseReleases($)
+  return parseReleases($);
 }
 
 function parseRelease($) {
@@ -49,6 +49,10 @@ function parseReleases($) {
 
   $('.post').each((index, element) => {
     let release = {};
+
+    if (index === 0) {
+      info.lastId = $(element).attr('id');
+    }
 
     release.id = $(element).attr('id');
     release.rlsname = $(element).find('.p-title').text()
